@@ -31,7 +31,7 @@ function Intro() {
       <div className="w-1/2">
         <img
           className="rounded-full w-96 h-96 ml-10 border shadow-2xl"
-          src="src/assets/profile.jpg"
+          src="public/assets/profile.jpg"
           alt=""
         />
         <div className=" w-52 h-16 ml-32 mt-1 flex items-center justify-evenly cursor-pointer">
