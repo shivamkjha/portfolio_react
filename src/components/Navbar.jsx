@@ -8,7 +8,7 @@ function Navbar() {
         background: "linear-gradient(to right, #0f2027, #203a43, #2c5364)",
       }}
     >
-      <div className="text-6xl mr-80 font-semibold m-2 text-yellow-100">
+      <div className="text-6xl mr-80 font-semibold m-4 text-yellow-100">
         <a href="/">S.</a>
       </div>
       <div className="flex ml-24 w-96 cursor-pointer justify-evenly">
