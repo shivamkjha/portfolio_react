@@ -1,4 +1,8 @@
 import React from "react";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import DownloadIcon from "@mui/icons-material/Download";
 
 function Intro() {
   return (
@@ -14,8 +18,11 @@ function Intro() {
           </p>
           <div className="flex ">
             {/* <div className="border mt-3 w-40 h-0 "></div> */}
-            <button className=" bg-green-600 text-white p-3 m-2 rounded-lg">
-              <a href="src/assets/resume.pdf" download>download Resume</a>
+            <button className=" bg-green-600 text-white p-3 m-2 rounded-lg shadow-2xl">
+              <a href="src/assets/resume.pdf" download>
+                <DownloadIcon />
+                Download Resume
+              </a>
             </button>
             <div className="border mt-3 w-80 h-0 "></div>
           </div>
@@ -23,11 +30,25 @@ function Intro() {
       </div>
       <div className="w-1/2">
         <img
-          className="rounded-full w-96 h-96 ml-10"
+          className="rounded-full w-96 h-96 ml-10 border shadow-2xl"
           src="src/assets/profile.jpg"
           alt=""
         />
-        <div>instagdram</div>
+        <div className=" w-52 h-16 ml-32 mt-1 flex items-center justify-evenly cursor-pointer">
+          <LinkedInIcon
+            fontSize="large"
+            // color="primary"
+            className="transition duration-300 ease-in-out transform hover:scale-125"
+          />
+          <TwitterIcon
+            fontSize="large"
+            className="transition duration-200 ease-in-out transform hover:scale-125"
+          />
+          <GitHubIcon
+            fontSize="large"
+            className="transition duration-0 ease-in-out transform hover:scale-125"
+          />
+        </div>
       </div>
     </div>
   );
