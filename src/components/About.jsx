@@ -17,49 +17,49 @@ function About() {
           <div className="flex justify-center">
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/java.svg"
+              src="/assets/TechLogos/java.svg"
               alt=""
             />
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/python.svg"
+              src="/assets/TechLogos/python.svg"
               alt=""
             />
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/javascript.svg"
+              src="/assets/TechLogos/javascript.svg"
               alt=""
             />
           </div>
           <div className="flex justify-center">
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/html-5.svg"
+              src="/assets/TechLogos/html-5.svg"
               alt=""
             />
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/css-3.svg"
+              src="/assets/TechLogos/css-3.svg"
               alt=""
             />
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/tailwindcss-icon.svg"
+              src="/assets/TechLogos/tailwindcss-icon.svg"
               alt=""
             />
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/react.svg"
+              src="/assets/TechLogos/react.svg"
               alt=""
             />
             <img
               className="w-16 h-16 m-2"
-              src="src/assets/TechLogos/mongodb-icon.svg"
+              src="/assets/TechLogos/mongodb-icon.svg"
               alt=""
             />
             <img
               className="w-20 h-20 m-2"
-              src="src/assets/TechLogos/nodejs-icon.svg"
+              src="/assets/TechLogos/nodejs-icon.svg"
               alt=""
             />
           </div>

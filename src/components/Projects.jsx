@@ -16,7 +16,7 @@ function Projects() {
           <Project
             pname={"Happiness using ML"}
             desc={"HTML, CSS , Flask, Python"}
-            ss={"src/assets/Happiness.jpeg"}
+            ss={"/assets/Happiness.jpeg"}
             src={"https://github.com/shivamkjha/Happiness_Predictor"}
           />
         </div>
@@ -24,7 +24,7 @@ function Projects() {
           <Project
             pname={"EverythingVIT"}
             desc={"HTML, CSS , JavaScript"}
-            ss={"src/assets/EverythingVIT.png"}
+            ss={"/assets/EverythingVIT.png"}
             url={"https://shivamkjha.github.io/EverythingVIT/"}
             src={"https://github.com/shivamkjha/EverythingVIT"}
           />
@@ -33,7 +33,7 @@ function Projects() {
           <Project
             pname={"Snake Game"}
             desc="JAVA, Swing"
-            ss={"src/assets/SnakeGame.png"}
+            ss={"/assets/SnakeGame.png"}
             src={"https://github.com/shivamkjha/Happiness_Predictor"}
           />
         </div>
@@ -41,7 +41,7 @@ function Projects() {
           <Project
             pname={"Snake Game"}
             desc="JAVA, Swing"
-            ss={"src/assets/SnakeGame.png"}
+            ss={"/assets/SnakeGame.png"}
             src={"https://github.com/shivamkjha/Happiness_Predictor"}
           />
         </div>
