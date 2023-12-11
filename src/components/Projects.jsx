@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div id="projects" className="w-screen pt-24">
       <div className="mb-10 flex-1/2">
-        <h1 className="text-6xl font-semibold text-yellow-100 text-center">
+        <h1 className="text-5xl sm:text-6xl font-semibold text-yellow-100 text-center">
           Projects
         </h1>
       </div>

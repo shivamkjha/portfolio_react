@@ -14,7 +14,7 @@ function App() {
         <a href="#about">
           <ExpandMoreIcon
             fontSize="large"
-            className="hover:scale-150 transition duration-200 ease-in-out shadow-2xl"
+            className="hover:scale-150 transition duration-200 ease-in-out shadow-2xl text-yellow-100"
           />
         </a>
       </div>

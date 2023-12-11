@@ -1,0 +1,14 @@
+/* styles.css (or your preferred CSS file) */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation in your component */
+.text-animation {
+  animation: slideInLeft 1s ease-in-out;
+}
