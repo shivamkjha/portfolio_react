@@ -7,7 +7,7 @@ import './intro.css';
 
 function Intro() {
   return (
-    <div className="flex w-screen h-1/2 mt-44 sm:mt-56 flex-wrap-reverse sm:flex-nowrap p-2 sm:p-0">
+    <div className="flex w-screen h-1/2 mt-32 sm:mt-56 flex-wrap-reverse sm:flex-nowrap p-2 sm:p-0">
       <div className="flex w-full sm:w-2/3 items-center justify-center sm:ml-20 ">
         <div className="overflow-hidden animate-slideInLeft w-full sm:w-2/3 ml-3 sm:ml-0">
           <p className="text-xl text-blue-300">
@@ -34,11 +34,11 @@ function Intro() {
       </div>
       <div className="w-1/2 animate-slideInRight">
         <img
-          className="rounded-full sm:w-96 sm:h-96 ml-28 sm:ml-10 border shadow-2xl w-44 h-44"
+          className="rounded-full sm:w-96 sm:h-96 ml-24 sm:ml-10 border shadow-2xl w-44 h-44"
           src="/assets/profile.jpg"
           alt=""
         />
-        <div className=" w-52 h-16 ml-24 sm:ml-32 mt-2 sm:mt-1 flex sm:items-center justify-evenly cursor-pointer">
+        <div className=" w-52 h-16 ml-20 sm:ml-32 mt-2 sm:mt-1 flex sm:items-center justify-evenly cursor-pointer">
           <LinkedInIcon
             fontSize="large"
             // color="primary"
