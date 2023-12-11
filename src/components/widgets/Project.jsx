@@ -11,17 +11,16 @@ function Project({ss,url,src,pname,desc}) {
           <p className="text-l">{desc}</p>
         </div>
 
-        <div className="flex flex-wrap w-24 h-24 justify-center items-center">
+        <div className="flex flex-wrap w-32 h-28 justify-center items-center">
           {url && (
             <a className="text-white text-center text-l" href={url}>
-              <button className=" bg-green-600 rounded-xl w-full p-2">
+              <button className=" bg-green-600 rounded-2xl w-24 p-2">
                 Visit Site
               </button>
             </a>
           )}
-          <br />
           <a className="text-white text-center text-l" href={src}>
-            <button className=" bg-green-600 rounded-xl w-full p-2">
+            <button className=" bg-green-600 rounded-2xl w-28 p-2">
               Source Code
             </button>
           </a>

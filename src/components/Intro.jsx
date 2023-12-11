@@ -22,13 +22,13 @@ function Intro() {
           </p>
           <div className="flex ">
             {/* <div className="border mt-3 w-40 h-0 "></div> */}
-            <button className=" bg-green-600 text-white sm:w-80 m-1 sm:m-0 p-2 sm:p-3 rounded-lg shadow-2xl">
+            <button className=" bg-green-600 text-white sm:w-80 m-2 sm:m-1 p-2 sm:p-3 rounded-lg shadow-2xl">
               <a href="src/assets/resume.pdf" download>
                 <DownloadIcon />
                 Download Resume
               </a>
             </button>
-            <div className="border mt-3 w-40 sm:w-full h-0 "></div>
+            <div className="border mt-3 w-40 sm:w-full h-0"></div>
           </div>
         </div>
       </div>
