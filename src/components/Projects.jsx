@@ -11,10 +11,10 @@ function Projects() {
       </div>
 
       {/* Project cards  */}
-      <div className="flex justify-evenly flex-wrap">
+      <div className="flex justify-center sm:justify-evenly flex-wrap">
         <div className="flex items-center">
           <Project
-            pname={"Happiness using ML"}
+            pname={"Happiness Index"}
             desc={"HTML, CSS , Flask, Python"}
             ss={"/assets/Happiness.jpeg"}
             src={"https://github.com/shivamkjha/Happiness_Predictor"}
@@ -27,14 +27,6 @@ function Projects() {
             ss={"/assets/EverythingVIT.png"}
             url={"https://shivamkjha.github.io/EverythingVIT/"}
             src={"https://github.com/shivamkjha/EverythingVIT"}
-          />
-        </div>
-        <div className="flex items-center">
-          <Project
-            pname={"Snake Game"}
-            desc="JAVA, Swing"
-            ss={"/assets/SnakeGame.png"}
-            src={"https://github.com/shivamkjha/Happiness_Predictor"}
           />
         </div>
         <div className="flex items-center">

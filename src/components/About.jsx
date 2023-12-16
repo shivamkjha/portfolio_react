@@ -16,49 +16,49 @@ function About() {
         <div className="w-full p-5 mt-5">
           <div className="flex justify-center">
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-2 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/java.svg"
               alt=""
             />
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-2 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/python.svg"
               alt=""
             />
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-2 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/javascript.svg"
               alt=""
             />
           </div>
           <div className="flex justify-center">
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-3 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/html-5.svg"
               alt=""
             />
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-3 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/css-3.svg"
               alt=""
             />
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-3 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/tailwindcss-icon.svg"
               alt=""
             />
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-3 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/react.svg"
               alt=""
             />
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-3 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/mongodb-icon.svg"
               alt=""
             />
             <img
-              className="w-12 h-12 sm:w-20 sm:h-20 m-2"
+              className="w-12 h-12 sm:w-20 sm:h-20 m-3 hover:scale-125 transition duration-300 ease-in-out"
               src="/assets/TechLogos/nodejs-icon.svg"
               alt=""
             />
