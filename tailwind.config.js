@@ -15,6 +15,7 @@ export default {
         md: "1rem",
         lg: "1.2rem",
         xl: "1.4rem",
+        nav: "1.3rem",
       },
       keyframes: {
         slideInLeft: {
