@@ -8,10 +8,10 @@ function Navbar() {
         background: "linear-gradient(to right, #0f2027, #203a43, #2c5364)",
       }}
     >
-      <div className="text-4xl sm:text-6xl font-semibold m-1 sm:m-0 sm:hidd text-yellow-100 mr-8">
+      <div className="text-4xl sm:text-6xl font-semibold m-1 sm:m-0 sm:hidd text-yellow-100 mr-12">
         <a href="/">S.</a>
       </div>
-      <div className="flex w-96 sm:w-96 cursor-pointer justify-evenly">
+      <div className="flex w-96 sm:w-96 cursor-pointer justify-evenly font-normal">
         <div className="sm:ml-10 hover:text-yellow-100 hover:scale-110 hover:underline hover:underline-offset-8 transition duration-200 ease-in-out relative">
           <a href="#about">About</a>
         </div>
