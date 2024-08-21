@@ -19,6 +19,14 @@ function App() {
         </a>
       </div>
       <About />
+      <div className="text-center ">
+        <a href="#projects">
+          <ExpandMoreIcon
+            fontSize="large"
+            className="hover:scale-150 transition duration-200 ease-in-out shadow-2xl text-yellow-100"
+          />
+        </a>
+      </div>
       <Projects />
     </>
   );
