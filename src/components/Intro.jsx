@@ -34,7 +34,7 @@ function Intro() {
   return (
     <div className="flex w-screen h-1/2 mt-32 sm:mt-56 flex-wrap-reverse sm:flex-nowrap p-2 sm:p-0 pt-10 sm:pt-0">
       <div className="flex w-full sm:w-2/3 items-center justify-center sm:ml-20 ">
-        <div className="overflow-hidden animate-slideInLeft w-11/12 border sm:w-2/3 ml-3 sm:ml-0">
+        <div className="overflow-hidden animate-slideInLeft w-11/12  sm:w-2/3 ml-3 sm:ml-0">
           <p className="text-xl text-blue-300">Hello I'm</p>
           <p className="text-4xl sm:text-6xl text-yellow-100 font-bold">
             Shivam Kumar Jha
