@@ -1,23 +1,49 @@
 import React from "react";
+import Typed from "typed.js";
+import { useEffect,useRef } from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import DownloadIcon from "@mui/icons-material/Download";
 import './intro.css';
 
+
+
 function Intro() {
+  const el = React.useRef(null);
+  var bio = `I like building things for the web!`;
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [bio],
+      startDelay : 400,
+      typeSpeed: 50,
+      showCursor: true,
+      cursorChar: "|",
+      autoInsertCss: true,
+      
+    });
+
+    
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
+
   return (
     <div className="flex w-screen h-1/2 mt-32 sm:mt-56 flex-wrap-reverse sm:flex-nowrap p-2 sm:p-0">
       <div className="flex w-full sm:w-2/3 items-center justify-center sm:ml-20 ">
-        <div className="overflow-hidden animate-slideInLeft w-full sm:w-2/3 ml-3 sm:ml-0">
+        <div className="overflow-hidden animate-slideInLeft w-full sm:w-3/4 ml-3 sm:ml-0">
           <p className="text-xl text-blue-300">Hello I'm</p>
           <p className="text-4xl sm:text-6xl text-yellow-100 font-bold">
             Shivam Kumar Jha
           </p>
 
           <p className="text-white text-lg sm:text-xl leading-7">
-            I'm a pre final year Software Engineering student at VIT Chennai. I
-            like building things for the web.
+            I'm a pre final year Software Engineering student at VIT Chennai.
+            <span ref={el} />
+            
           </p>
           <div className="flex ">
             {/* <div className="border mt-3 w-40 h-0 "></div> */}

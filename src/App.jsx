@@ -10,23 +10,7 @@ function App() {
     <>
       <Navbar />
       <Intro />
-      <div className="text-center mt-28 ">
-        <a href="#about">
-          <ExpandMoreIcon
-            fontSize="large"
-            className="hover:scale-150 transition duration-200 ease-in-out shadow-2xl text-yellow-100"
-          />
-        </a>
-      </div>
       <About />
-      <div className="text-center ">
-        <a href="#projects">
-          <ExpandMoreIcon
-            fontSize="large"
-            className="hover:scale-150 transition duration-200 ease-in-out shadow-2xl text-yellow-100"
-          />
-        </a>
-      </div>
       <Projects />
     </>
   );

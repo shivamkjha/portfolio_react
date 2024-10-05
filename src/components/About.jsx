@@ -2,12 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about" className="w-screen flex">
+    <div id="about" className="w-screen flex flex-col-reverse md:flex-row mt-20">
       {/* // tech logos */}
-      <div className="w-full mt-40 flex-col items-">
+      <div className="md:w-1/2 sm:mt-40 flex-col items-">
         <div className="flex justify-center">
           <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-10 h-12 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/java.svg"
             alt=""
           />
@@ -60,11 +60,11 @@ function About() {
           />
         </div>
       </div>
-      <div className=" w-full mt-20 p-0 sm:p-32 text-center ">
+      <div className="md:w-1/2 sm:mt-12 p-0 sm:p-32 text-center ">
         <h1 className="text-5xl sm:text-6xl font-semibold text-yellow-100">
           What I do
         </h1>
-        <p className="mt-10 text-center text-xl p-4">
+        <p className="mt-10 text-center text-lg sm:text-xl p-2 sm:p-4">
           I'm <span className="text-black-300">Shivam Kumar Jha</span>, a
           passionate and driven Computer Science student at Vellore Institute of
           Technology, Chennai. With a strong foundation in programming and a
