@@ -10,7 +10,7 @@ import './intro.css';
 
 function Intro() {
   const el = React.useRef(null);
-  var bio = `I like building things for the web!`;
+  var bio = ` I like building things for the web!`;
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -32,27 +32,27 @@ function Intro() {
 
 
   return (
-    <div className="flex w-screen h-1/2 mt-32 sm:mt-56 flex-wrap-reverse sm:flex-nowrap p-2 sm:p-0">
+    <div className="flex w-screen h-1/2 mt-32 sm:mt-56 flex-wrap-reverse sm:flex-nowrap p-2 sm:p-0 pt-10 sm:pt-0">
       <div className="flex w-full sm:w-2/3 items-center justify-center sm:ml-20 ">
-        <div className="overflow-hidden animate-slideInLeft w-full sm:w-3/4 ml-3 sm:ml-0">
+        <div className="overflow-hidden animate-slideInLeft w-11/12 border sm:w-2/3 ml-3 sm:ml-0">
           <p className="text-xl text-blue-300">Hello I'm</p>
           <p className="text-4xl sm:text-6xl text-yellow-100 font-bold">
             Shivam Kumar Jha
           </p>
 
-          <p className="text-white text-lg sm:text-xl leading-7">
-            I'm a pre final year Software Engineering student at VIT Chennai.
+          <p className="text-white text-lg sm:text-xl leading-7 h-24 sm:h-16">
+            I'm a final year Software Engineering student at VIT Chennai. 
             <span ref={el} />
             
           </p>
-          <div className="flex ">
+          <div className="flex">
             {/* <div className="border mt-3 w-40 h-0 "></div> */}
-            <button className=" bg-green-600 text-white text-xl sm:w-52 m-2 sm:m-1 p-2 sm:p-2 rounded-lg shadow-2xl transition duration-300 ease-in-out transform hover:scale-105 ">
+            <button className=" bg-green-600 text-white text-xl sm:w-52 mr-2 p-1 sm:p-2 rounded-lg shadow-2xl hover:bg-green-700 hover:text-white ">
               <a href="public/assets/resume.pdf" download>
                 Resume
               </a>
             </button>
-            <div className="border mt-3 w-40 sm:w-full h-0"></div>
+            <div className="border mt-3 w-full h-0"></div>
           </div>
         </div>
       </div>

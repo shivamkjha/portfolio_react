@@ -2,17 +2,20 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about" className="w-screen flex flex-col-reverse md:flex-row mt-20">
+    <div
+      id="about"
+      className="w-screen flex flex-col-reverse md:flex-row mt-40"
+    >
       {/* // tech logos */}
-      <div className="md:w-1/2 sm:mt-40 flex-col items-">
+      <div className="md:w-1/2 sm:pt-16 sm:mt-40 flex-col items-">
         <div className="flex justify-center">
           <img
-            className="w-10 h-12 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/java.svg"
             alt=""
           />
           <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/python.svg"
             alt=""
           />
@@ -20,47 +23,42 @@ function About() {
 
         <div className="flex h-30 justify-center">
           <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
-            src="/assets/TechLogos/javascript.svg"
-            alt=""
-          />
-          <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/html-5.svg"
             alt=""
           />
           <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            src="/assets/TechLogos/javascript.svg"
+            alt=""
+          />
+          <img
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/css-3.svg"
             alt=""
           />
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex  justify-evenly sm:justify-center">
           <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/react.svg"
             alt=""
           />
           <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
-            src="/assets/TechLogos/tailwindcss-icon.svg"
-            alt=""
-          />
-
-          <img
-            className="w-24 h-28 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/mongodb-icon.svg"
             alt=""
           />
           <img
-            className="w-24 h-30 sm:w-30 sm:h-30 m-4 hover:scale-125 transition duration-300 ease-in-out"
+            className="w-18 h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
             src="/assets/TechLogos/nodejs-icon.svg"
             alt=""
           />
         </div>
       </div>
-      <div className="md:w-1/2 sm:mt-12 p-0 sm:p-32 text-center ">
+
+      <div className="md:w-1/2 sm:mt-12 p-0 sm:p-24 text-center ">
         <h1 className="text-5xl sm:text-6xl font-semibold text-yellow-100">
           What I do
         </h1>
